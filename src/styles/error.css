@@ -1,0 +1,23 @@
+.error {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-error {
+    padding: 70px 120px;
+    border-radius: 5px;
+    border: 2px solid red;
+    color: brown;
+}
+
+.link-error {
+    color: brown;
+    text-decoration: underline;
+}
+
+.link-error:hover {
+    color: red;
+}

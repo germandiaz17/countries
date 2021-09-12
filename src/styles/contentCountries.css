@@ -1,0 +1,30 @@
+.container {
+    background-color: rgba(0, 132, 255, 0.185);
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: gray;
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.image-flag {
+    width: 300px;
+    height: 200px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,32 @@
+.form {
+    margin-bottom: 50px;
+}
+
+label {
+    font-weight: 600;
+    font-size: large;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: medium;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 7px 30px;
+    border-radius: 5px;
+    background-color: rgba(128, 199, 246, 0.383);
+    cursor: pointer;
+    font-size: medium;
+}
+
+.btn:hover {
+    background-color: rgba(177, 221, 250, 0.383);
+}
