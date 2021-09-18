@@ -33,7 +33,7 @@ const MoreInfo = () => {
                 <p><span>Lenguaje:</span> {data[0].languages[0].name}</p>
                 <p><span>Time Zone:</span> {data[0].timezones}</p>
                 <p><span>Area:</span> {data[0].area} km2</p>
-                <p><span>borders:</span> {!data[0].borders ? 'is island' : data[0].borders.map((e) => `${e}, `)}</p>
+                <p><span>borders:</span> {!data[0].borders.length > 0 ? 'is island' : data[0].borders.map((e) => `${e}, `)}</p>
             </div>
             </div>
         </div>
