@@ -1,13 +1,17 @@
 .container {
-    background-color: rgba(0, 132, 255, 0.185);
+    background-color: rgba(37, 37, 37, 0.794);
     margin-bottom: 40px;
     border-radius: 5px;
-    border: 3px solid black;
+    border: 3px solid #fff;
+}
+
+.container p {
+    color: #fff;
 }
 
 .link {
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 .link:hover {

@@ -20,7 +20,10 @@ const MoreInfo = () => {
     return(
         <div className='content'>
             <div className='content-recuadre'>
-                <Link to='/' className='back'>home</Link>
+                <div className='link-cont'>
+                    <Link to='/' className='back'>home</Link>
+                    <Link to={`/weater/${data[0].capital}`} className='back'>weater</Link>
+                </div>
             <h1 className='title'>{data[0].name}</h1>
             <div className='img-content'>
                 <img className='image' src={data[0].flag} alt={info} />

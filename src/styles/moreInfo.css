@@ -1,13 +1,27 @@
 .content {
+    background-image: url(../img/font.png);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    padding-top: 30px;
+    color: aliceblue;
+    min-height: 100vh;
 }
 
 .back {
+    border: 1px solid black;
+    padding: 2px 30px ;
     text-decoration: none;
-    color: black;
+    color: #fff;
+    margin-left: 2px;
+}
+
+.back:hover {
+    background-color: gray;
+}
+
+.link-cont {
+    display: block;
 }
 
 .content-recuadre {
