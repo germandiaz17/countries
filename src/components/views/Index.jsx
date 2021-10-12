@@ -14,7 +14,7 @@ const Index = () => {
     const [init, setInit] = useState(0)
     const [finish, setFinish] = useState(12)
 
-    const {data} = useFetchData('https://restcountries.eu/rest/v2/all')
+    const {data} = useFetchData('https://restcountries.com/v2/all')
 
 
     //functions
